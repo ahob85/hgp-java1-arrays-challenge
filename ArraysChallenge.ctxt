@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ArraysChallenge
+comment0.text=\n\ Write\ a\ description\ of\ class\ ArraysChallenge\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=nums
+comment1.target=boolean\ firstLast6(int[])
+comment1.text=\n\ Given\ an\ array\ of\ numbers,\ return\ true\ if\ 6\ appears\ as\ either\ the\ first\ \n\ or\ last\ element\ in\ the\ array.\ The\ array\ will\ be\ length\ 1\ or\ more.\n\ \n\ Examples\:\n\ firstLast6([1,\ 2,\ 6])\ \u2192\ true\n\ firstLast6([6,\ 1,\ 2,\ 3])\ \u2192\ true\n\ firstLast6([13,\ 6,\ 1,\ 2,\ 3])\ \u2192\ false\n
+comment2.params=nums
+comment2.target=int[]\ midThree(int[])
+comment2.text=\n\ Given\ an\ array\ of\ numbers\ of\ odd\ length,\ return\ a\ new\ array\ length\ 3\ \n\ containing\ the\ elements\ from\ the\ middle\ of\ the\ array.\ The\ array\ length\ \n\ will\ be\ at\ least\ 3.\n\ \n\ Examples\:\n\ midThree([1,\ 2,\ 3,\ 4,\ 5])\ \u2192\ [2,\ 3,\ 4]\n\ midThree([8,\ 6,\ 7,\ 5,\ 3,\ 0,\ 9])\ \u2192\ [7,\ 5,\ 3]\n\ midThree([1,\ 2,\ 3])\ \u2192\ [1,\ 2,\ 3]\n
+comment3.params=start\ end
+comment3.target=java.lang.String[]\ fizzBuzz(int,\ int)
+comment3.text=\n\ This\ is\ slightly\ more\ difficult\ version\ of\ the\ famous\ FizzBuzz\ problem\ \n\ which\ is\ sometimes\ given\ as\ a\ first\ problem\ for\ job\ interviews.\ \n\ Consider\ the\ series\ of\ numbers\ beginning\ at\ start\ and\ running\ up\ to\ but\ \n\ not\ including\ end,\ so\ for\ example\ start\=1\ and\ end\=5\ gives\ the\ series\ 1,\n\ 2,\ 3,\ 4.\ Return\ a\ new\ string\ array\ containing\ the\ string\ form\ of\ these\ \n\ numbers,\ except\ for\ multiples\ of\ 3,\ use\ "Fizz"\ instead\ of\ the\ number,\ \n\ for\ multiples\ of\ 5\ use\ "Buzz",\ and\ for\ multiples\ of\ both\ 3\ and\ 5\ use\ \n\ "FizzBuzz".\n\ \n\ Examples\:\n\ fizzBuzz(1,\ 6)\ \u2192\ ["1",\ "2",\ "Fizz",\ "4",\ "Buzz"]\n\ fizzBuzz(1,\ 8)\ \u2192\ ["1",\ "2",\ "Fizz",\ "4",\ "Buzz",\ "Fizz",\ "7"]\n\ fizzBuzz(1,\ 11)\ \u2192\ ["1",\ "2",\ "Fizz",\ "4",\ "Buzz",\ "Fizz",\ "7",\ "8",\ "Fizz",\ "Buzz"]\n
+comment4.params=nums\ count
+comment4.target=int[]\ copyEvens(int[],\ int)
+comment4.text=\n\ Given\ an\ array\ of\ positive\ numbers,\ return\ a\ new\ array\ of\ length\ \n\ "count"\ containing\ the\ first\ even\ numbers\ from\ the\ original\ array.\ \n\ The\ original\ array\ will\ contain\ at\ least\ "count"\ even\ numbers.\n\ \n\ Examples\:\n\ copyEvens([3,\ 2,\ 4,\ 5,\ 8],\ 2)\ \u2192\ [2,\ 4]\n\ copyEvens([3,\ 2,\ 4,\ 5,\ 8],\ 3)\ \u2192\ [2,\ 4,\ 8]\n\ copyEvens([6,\ 1,\ 2,\ 4,\ 5,\ 8],\ 3)\ \u2192\ [6,\ 2,\ 4]\n
+comment5.params=nums
+comment5.target=int[]\ zeroMax(int[])
+comment5.text=\n\ Return\ a\ new\ version\ of\ the\ given\ array\ (i.e.,\ don't\ modify\ the\ \n\ original)\ where\ each\ zero\ value\ in\ the\ array\ is\ replaced\ by\ the\ largest\ \n\ odd\ value\ to\ the\ right\ of\ the\ zero\ in\ the\ array.\ If\ there\ is\ no\ odd\ \n\ value\ to\ the\ right\ of\ the\ zero,\ leave\ the\ zero\ as\ a\ zero.\n\ \n\ Examples\:\n\ zeroMax([0,\ 5,\ 0,\ 3])\ \u2192\ [5,\ 5,\ 3,\ 3]\n\ zeroMax([0,\ 4,\ 0,\ 3])\ \u2192\ [3,\ 4,\ 3,\ 3]\n\ zeroMax([0,\ 1,\ 0])\ \u2192\ [1,\ 1,\ 0]\n
+numComments=6

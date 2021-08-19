@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=ArraysChallengeTest
+comment0.text=\n\ The\ test\ class\ ArraysChallengeTest.\n\n\ @author\ \ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=ArraysChallengeTest()
+comment1.text=\n\ Default\ constructor\ for\ test\ class\ ArraysChallengeTest\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\n\ Tears\ down\ the\ test\ fixture.\n\n\ Called\ after\ every\ test\ case\ method.\n
+comment4.params=
+comment4.target=void\ firstLast6Test()
+comment5.params=
+comment5.target=void\ midThreeTest()
+comment6.params=
+comment6.target=void\ fizzBuzzTest()
+comment7.params=
+comment7.target=void\ copyEvensTest()
+comment8.params=
+comment8.target=void\ zeroMaxTest()
+numComments=9
