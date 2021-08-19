@@ -17,7 +17,7 @@ public class ArraysChallenge
      * firstLast6([13, 6, 1, 2, 3]) → false
      */
     public static boolean firstLast6(int[] nums) {
-        return nums[0] == 6 || nums[nums.length - 1] == 6;
+
     }
 
     /**
@@ -31,8 +31,7 @@ public class ArraysChallenge
      * midThree([1, 2, 3]) → [1, 2, 3]
      */
     public static int[] midThree(int[] nums) {
-        int middleIndex = nums.length / 2;
-        return new int[] {nums[middleIndex - 1], nums[middleIndex], nums[middleIndex + 1]};
+ 
     }
     
     /**
@@ -51,22 +50,7 @@ public class ArraysChallenge
      * fizzBuzz(1, 11) → ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz"]
      */
     public static String[] fizzBuzz(int start, int end) {
-        String[] retArray = new String[end - start];
-        int i = 0;
-        while(start < end) {
-            if(start % 3 == 0 && start % 5 == 0) {
-                retArray[i] = "FizzBuzz";
-            } else if(start % 3 == 0) {
-                retArray[i] = "Fizz";
-            } else if(start % 5 == 0) {
-                retArray[i] = "Buzz";
-            } else {
-                retArray[i] = String.valueOf(start);
-            }
-            start++;
-            i++;
-        }
-        return retArray;
+
     }
 
     /**
@@ -80,16 +64,7 @@ public class ArraysChallenge
      * copyEvens([6, 1, 2, 4, 5, 8], 3) → [6, 2, 4]
      */
     public static int[] copyEvens(int[] nums, int count) {
-        int[] retArray = new int[count];
-        int i = 0;
-        while(count > 0) {
-            if(nums[i] % 2 == 0) {
-                retArray[retArray.length - count] = nums[i];
-                count--;
-            }
-            i++;
-        }
-        return retArray;
+
     }
 
     /**
@@ -104,18 +79,6 @@ public class ArraysChallenge
      * zeroMax([0, 1, 0]) → [1, 1, 0]
      */
     public static int[] zeroMax(int[] nums) {
-        int largestOdd = 0;
-        int[] retArray = new int[nums.length];
-        for(int i = nums.length - 1; i >= 0; i--) {
-            if(nums[i] > largestOdd && nums[i] % 2 == 1) {
-                largestOdd = nums[i];
-            }
-            if(nums[i] == 0) {
-                retArray[i] = largestOdd;
-            } else {
-                retArray[i] = nums[i];
-            }
-        }
-        return retArray;
+
     }
 }
